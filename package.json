@@ -1,0 +1,11 @@
+{
+    "name": "clone",
+    "version": "1.0.0",
+    "description": "AppleClone",
+    "scripts": {
+      "build": "echo 'No build steps required'"
+    },
+    "keywords": [],
+    "author": "Aleasa",
+    "license": "MIT"
+  }
