@@ -475,7 +475,6 @@ hr {
     text-decoration: underline;
 }
 
-
 .align1 {
     display: flex;
     justify-content: flex-end;
@@ -488,7 +487,6 @@ hr {
 .hide-onbig {
     display: none;
     border-color:#ffffff;
-    /* margin: 20px 0px; */
 }
 
 /* Medium and small screens */
@@ -502,71 +500,27 @@ hr {
         padding-bottom: 10px;
     }
 
-    /* .footer, .footer br, .hide-onsmall {
-        display: none; 
-    } */
-
     footer {
-        /* display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        height: 100vh; */
         padding: 0px 10px;
     }
 
-    /* .column {
-        height: 30px;
-        line-height: 30px;
-        padding: 20px 0px;
-    } */
-
-    .para, hr, .row, .bottom {
+    .para, hr, .row, .bottom, .container1 {
         width: 80%;
-        /* margin: 0;
-        line-height: 20px;
-        height: auto; */
     }
-
-    /* .bottom {
-        font-size: 12px;
-        padding-top: 30px;
-        margin: 0;
-    } */
 
     .bottom1 {
-        /* display: flex;
-        flex-direction: column; */
-        width: 80%;
-        /* gap: 10px;
-        font-size: 12px; */
+        width: 100%;
+        font-size: 11px;
     }
 
-    .container1 {
-        /* display: flex;
-        flex-direction: column;
-        font-size: 12px;
-        margin-bottom: 0;
-        padding-bottom: 0; */
-        width: 80%;
-        /* height: 100%; */
+    .align {
+        margin: 0px 20px 20px;
+        font-size: 11px;
     }
 
-    /* .bottom1, .align, .footer1 {
-        display: flex;
-        text-align: left;
-        flex-wrap: wrap;
-        line-height: 20px;
-    } */
-
-    /* .align1{
-        display: flex;
-        flex-direction: column;
-        font-size: 12px;
-    } */
-
-    /* .hide-onbig {
-        display: block;
-    } */
+    .footer1 {
+        font-size: 11px;
+    }
 }
 
 /* small screen only */
@@ -587,21 +541,11 @@ hr {
     .row {
         display: flex;
         flex-direction: column;
-        /* height: auto;
-        margin-bottom: none; */
     }
 
-    /* .column-container {
-        height: 30px; 
-        margin: 0;    
-    } */
-
-
     .column {
-        /* gap: 30px; */
         height: 30px;
         margin: 0;
-        /* flex: 1 1 100%;  */
     }
 
     .para, hr, .row, .bottom {
@@ -628,7 +572,7 @@ hr {
         flex-direction: column;
         font-size: 12px;
         width: 100%;
-        height: 100%;
+        height: 150px;
     }
 
     .bottom1, .align, .footer1 {
@@ -643,6 +587,7 @@ hr {
         display: flex;
         flex-direction: column;
         font-size: 12px;
+        margin-bottom: 20px;
     }
 
     .hide-onbig {
